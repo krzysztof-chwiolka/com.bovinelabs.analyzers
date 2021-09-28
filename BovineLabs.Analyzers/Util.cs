@@ -13,7 +13,7 @@ namespace BovineLabs.Analyzers
     public static class Util
     {
         private const string DirectoryKey = "BovineLabs.Analyzers.Directory";
-        private const string DefaultDirectory = "RoslynAnalyzers";
+        private const string DefaultDirectory = ".RoslynAnalyzers";
 
         public static string GetDirectory()
         {
